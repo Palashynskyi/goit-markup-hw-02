@@ -9,13 +9,13 @@ font-family: 'Roboto', sans-serif; */
 
 /* Global */
 :root {
-    --primary-text-color:#757575;
-    --tittle-text-color:#212121;
-    --accent-color:#2196F3;
-    --primary-bg-color:#F5F4FA;
-    --second-bg-color:#2196F3;
-    --primary-btn-color:#212121;
-    --second-btn-color:#FFFFFF;
+    --primary-text-color: #757575;
+    --tittle-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #F5F4FA;
+    --second-bg-color: #2196F3;
+    --primary-btn-color: #212121;
+    --second-btn-color: #FFFFFF;
 
 }
 
@@ -24,7 +24,7 @@ font-family: 'Roboto', sans-serif; */
 }
 
 body {
-    background-color:#ffffff;
+    background-color: #ffffff;
     color: var(--primary-text-color);
 }
 
@@ -37,7 +37,8 @@ body {
     color: var(--tittle-text-color);
 }
 
-a, a:link {
+a,
+a:link {
     text-decoration: none;
     color: var(--primary-text-color);
 }
@@ -47,7 +48,8 @@ a, a:link {
     color: var(--tittle-text-color);
 }
 
-.auth-nav .item:hover, .auth-nav .item:focus {
+.auth-nav .item:hover,
+.auth-nav .item:focus {
     color: var(--accent-color);
 }
 
@@ -57,7 +59,8 @@ a, a:link {
     color: var(--tittle-text-color);
 }
 
-.site-nav .link:hover, .site-nav .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: var(--accent-color);
 }
 
@@ -66,12 +69,14 @@ a, a:link {
 }
 
 /* Content */
-.content-tittle, .content-features {
+.content-tittle,
+.content-features {
     color: var(--tittle-text-color);
 }
 
 /* About */
-.about-tittle, .about-name {
+.about-tittle,
+.about-name {
     color: var(--tittle-text-color);
 }
 
@@ -96,7 +101,8 @@ a, a:link {
     border-color: transparent;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
     color: var(--second-btn-color);
     background-color: var(--second-bg-color);
     border-color: transparent;
@@ -106,4 +112,3 @@ a, a:link {
 .work-name {
     color: var(--tittle-text-color);
 }
-
