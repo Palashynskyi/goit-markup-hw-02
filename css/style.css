@@ -39,7 +39,7 @@ body {
 
 a, a:link {
     text-decoration: none;
-    color:color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 /* Site nav */
