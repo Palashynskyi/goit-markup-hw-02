@@ -15,11 +15,9 @@ body {
 
 :root {
     --primary-text-color: #757575;
-    --tittle-text-color: #212121;
+    --second-text-color: #212121;
     --accent-color: #2196F3;
     --primary-bg-color: #F5F4FA;
-    --second-bg-color: #2196F3;
-    --primary-btn-color: #212121;
     --second-btn-color: #FFFFFF;
 }
 
@@ -37,12 +35,12 @@ body {
 }
 
 .logo-studio {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
 
 /* Site nav */
 .nav-link {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
 
 .item {
@@ -56,7 +54,7 @@ body {
 /* Index html */
 /* Hero */
 .hero-tittle {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -69,12 +67,12 @@ body {
 
 /* Content */
 .content-tittle, .content-features {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
 
 /* About */
 .about-tittle, .about-name {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
 
 /* Footer */
@@ -96,13 +94,13 @@ body {
 /* Button */
 .hero-btn {
     color: var(--second-btn-color);
-    background-color: var(--second-bg-color);
+    background-color: var(--accent-color);
     border-color: transparent;
     cursor: pointer;
 }
 
 .button {
-    color: var(--primary-btn-color);
+    color: var(--second-text-color);
     background-color: var(--primary-bg-color);
     border-color: transparent;
 }
@@ -110,11 +108,11 @@ body {
 .button:hover,
 .button:focus {
     color: var(--second-btn-color);
-    background-color: var(--second-bg-color);
+    background-color: var(--accent-color);
     border-color: transparent;
 }
 
 /* work-list */
 .work-name {
-    color: var(--tittle-text-color);
+    color: var(--second-text-color);
 }
