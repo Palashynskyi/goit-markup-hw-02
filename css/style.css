@@ -59,8 +59,7 @@ body {
     color: var(--tittle-text-color);
 }
 
-.site-nav, .nav-link:hover,
-.site-nav, .nav-link:focus {
+.nav-link:hover, .nav-link:focus {
     color: var(--accent-color);
 }
 
@@ -69,14 +68,12 @@ body {
 }
 
 /* Content */
-.content-tittle,
-.content-features {
+.content-tittle, .content-features {
     color: var(--tittle-text-color);
 }
 
 /* About */
-.about-tittle,
-.about-name {
+.about-tittle, .about-name {
     color: var(--tittle-text-color);
 }
 
