@@ -32,9 +32,6 @@ body {
 
 }
 
-nav {
-    
-}
 
 .list {
     list-style: none;
@@ -71,6 +68,12 @@ nav {
 }
 
 /* Site nav */
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav-link {
     color: var(--second-text-color);
     font-family: 'Roboto';
@@ -170,6 +173,8 @@ nav {
 /* About */
 .about {
     background-color: var(--second-bg-color);
+    width: 1600px;
+    height: 648px;
 }
 
 .about-li {
@@ -201,10 +206,15 @@ nav {
 }
 
 /* Footer */
+.footer-map {
+    margin-top: 60px;
+}
+
 .footer-box {
     background-color: var(--head-footter-bgc);
         width: 1600px;
         height: 252px;
+
 }
 
 .mail {
