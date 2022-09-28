@@ -20,9 +20,12 @@ body {
     background-color: #ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
+    width: 1600px;
+    height: 2346px;
 }
 
 :root {
+    --head-footter-bgc:#2F303A;
     --primary-text-color: #757575;
     --second-text-color: #212121;
     --accent-color: #2196F3;
@@ -39,8 +42,13 @@ body {
 .link {
     text-decoration: none;
 }
+
+.inline {
+    display: inline;
+}
 /* Header */
 /* Logo style */
+
 .logo-web {
     color: var(--accent-color);
     font-family: 'Raleway';
@@ -96,8 +104,15 @@ body {
 
 /* Index html */
 /* Hero */
+
+.hero{
+    background-color: var(--head-footter-bgc);
+    width: 1600px;
+    height: 600px;
+}
+
 .hero-tittle {
-    color: var(--second-text-color);
+    color: var(--second-btn-color);
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -106,8 +121,12 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        position: absolute;
+            width: 696px;
+            height: 120px;
+            left: 452px;
+            top: 280px;
 }
-
 
 /* Content */
 .visually-hidden {
@@ -148,6 +167,14 @@ body {
 }
 
 /* About */
+.about {
+    background-color: var(--primary-bg-color);
+}
+
+.about-li {
+    text-align: center;
+}
+
 .about-tittle, .about-name {
     color: var(--second-text-color);
 }
@@ -173,8 +200,15 @@ body {
 }
 
 /* Footer */
+.footer-box {
+    background-color: var(--head-footter-bgc);
+        width: 1600px;
+        height: 252px;
+}
+
 .mail {
     color:var(--second-btn-color);
+    font-style: normal;
 }
 
 .logo-alter {
@@ -209,6 +243,15 @@ body {
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;
+        position: absolute;
+            width: 216px;
+            height: 50px;
+            left: 692px;
+            top: 430px;
+        
+            background: #2196F3;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
 }
 
 .button {
