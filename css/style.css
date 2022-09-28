@@ -11,9 +11,6 @@
 /* фон другорядний          #F5F4FA */
 /* фон герой та футер       #2F303A */
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
 
 /* Global */
 body {
@@ -29,10 +26,14 @@ body {
     --primary-text-color: #757575;
     --second-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-bg-color: #F5F4FA;
+    --second-bg-color: #F5F4FA;
     --second-btn-color: #FFFFFF;
     --logo-black-color:#000000;
 
+}
+
+nav {
+    
 }
 
 .list {
@@ -168,7 +169,7 @@ body {
 
 /* About */
 .about {
-    background-color: var(--primary-bg-color);
+    background-color: var(--second-bg-color);
 }
 
 .about-li {
@@ -224,8 +225,7 @@ body {
 /* Portfolio html */
 /* filter-list */
 .filter-list {
-    /* зробити невидимим */
-    color: #ffffff;
+    color: var(--second-btn-color);
 }
 
 /* Button */
@@ -248,15 +248,13 @@ body {
             height: 50px;
             left: 692px;
             top: 430px;
-        
-            background: #2196F3;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
 }
 
 .button {
     color: var(--second-text-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--second-bg-color);
     border-color: transparent;
     font-family: 'Roboto';
         font-style: normal;
