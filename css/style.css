@@ -263,6 +263,7 @@ body {
 }
 
 .button {
+    cursor: pointer;
     color: var(--second-text-color);
     background-color: var(--second-bg-color);
     border-color: transparent;
