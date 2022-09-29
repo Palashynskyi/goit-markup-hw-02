@@ -41,9 +41,7 @@ body {
     text-decoration: none;
 }
 
-.inline {
-    display: inline;
-}
+
 /* Header */
 /* Logo style */
 
@@ -71,7 +69,6 @@ body {
 
 .flex {
     display: flex;
-    justify-content: space-around;
 }
 
 .nav-link {
@@ -217,6 +214,10 @@ body {
 .mail {
     color:var(--second-btn-color);
     font-style: normal;
+}
+
+.mail:hover, .mail:focus {
+    color: var(--accent-color);
 }
 
 .logo-alter {
