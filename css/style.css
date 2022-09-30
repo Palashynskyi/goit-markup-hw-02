@@ -17,9 +17,7 @@ body {
     background-color: #ffffff;
     color: var(--primary-text-color);
     font-family: 'Roboto', sans-serif;
-    width: 1600px;
-    height: 2346px;
-}
+ }
 
 :root {
     --head-footter-bgc:#2F303A;
@@ -29,6 +27,7 @@ body {
     --second-bg-color: #F5F4FA;
     --second-btn-color: #FFFFFF;
     --logo-black-color:#000000;
+    --second-bt-bg:#188CE8;
 
 }
 
@@ -69,6 +68,7 @@ body {
 
 .flex {
     display: flex;
+    justify-content: space-around;
 }
 
 .nav-link {
@@ -108,8 +108,7 @@ body {
 
 .hero{
     background-color: var(--head-footter-bgc);
-    width: 1600px;
-    height: 600px;
+    text-align: center;
 }
 
 .hero-tittle {
@@ -119,11 +118,9 @@ body {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.3636;
-        text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        width: 696px;
-        height: 120px;
+        padding-top: 200px;
 }
 
 /* Content */
@@ -168,8 +165,7 @@ body {
 /* About */
 .about {
     background-color: var(--second-bg-color);
-    width: 1600px;
-    height: 648px;
+
 }
 
 .about-li {
@@ -207,8 +203,7 @@ body {
 
 .footer-box {
     background-color: var(--head-footter-bgc);
-        width: 1600px;
-        height: 252px;
+   
 
 }
 
@@ -238,9 +233,16 @@ body {
 }
 
 /* Button */
+
+.center {
+
+}
+
 .hero-btn {
+    width: 216px;
+    height: 50px;
     color: var(--second-btn-color);
-    background-color: var(--head-footter-bgcr);
+    background-color: var(--accent-color);
     border-color: transparent;
     cursor: pointer;
     font-family: 'Roboto';
@@ -248,18 +250,19 @@ body {
         font-weight: 700;
         font-size: 16px;
         line-height: 1.875;
-        display: flex;
-        align-items: center;
-        text-align: center;
         letter-spacing: 0.06em;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;   
+        margin-top: 30px;  
+        margin-bottom: 200px;
 }
 
 .hero-btn:hover, .hero-btn:focus {
     width: 216px;
     height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
-    background-color: var(--accent-color);
+    background-color: var(--second-bt-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0);
 }
 
 .button {
